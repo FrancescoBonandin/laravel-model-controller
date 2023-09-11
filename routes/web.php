@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Route;
 // controller
 
 use  App\Http\Controllers\Guest\PageController;
+use  App\Http\Controllers\Guest\IdController;
 
 
 
@@ -23,3 +24,5 @@ use  App\Http\Controllers\Guest\PageController;
 */
 
 Route::get('/',[PageController::class,'index'])->name('index');
+
+route::get('/{id}',[IdController::class,'id'])->name('index.id');

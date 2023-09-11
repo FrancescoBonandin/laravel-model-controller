@@ -1,1 +1,24 @@
 @import "~bootstrap/scss/bootstrap";
+
+$bs-link-color-rgb:0,0,0;
+
+body{
+    background-color: rgba($color: #000000, $alpha: 0.7);
+    color: yellow;
+
+    .card{
+        background-color: chocolate;
+        color: black;
+        border-color: yellow;
+
+        a{
+            text-decoration: none ;
+            color: black ;
+        }
+        
+        a:visited{
+            text-decoration: none ;
+            color: black ;
+        }
+    }
+}
