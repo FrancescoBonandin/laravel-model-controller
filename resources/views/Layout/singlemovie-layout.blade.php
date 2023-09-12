@@ -23,7 +23,7 @@
             </div>
         </div>
 
-        <div class="w-100 row row-cols-5 align-items-stretch">
+        <div class="w-100 row row-cols-5">
 
             <div class="col text-center mt-4">
              

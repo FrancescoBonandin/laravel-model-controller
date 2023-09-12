@@ -25,6 +25,7 @@
 
         <div class="w-100 row row-cols-5">
 
+
             @foreach ($movies as $singlemovie)
             <div class="col text-center mt-4">
              

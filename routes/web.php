@@ -25,4 +25,4 @@ use  App\Http\Controllers\Guest\IdController;
 
 Route::get('/',[PageController::class,'index'])->name('index');
 
-route::get('/{id}',[IdController::class,'id'])->name('index.id');
+route::get('/{id}',[PageController::class,'id'])->name('index.id');
